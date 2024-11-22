@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for wanting to add data to this survey form for company of SillySally</p>
+        <form method="post" id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">Name: 
+                    <input type="text" id="name" placeholder="Anna" required>
+                </label>
+                
+                <label for="email" id="email-label">Email: 
+                    <input type="email" id="email" placeholder="user@mail.com" required>
+                </label>
+                
+                <label for="number" id="number-label">Rate this Survey Form: 
+                    <input type="number" id="number" min="0" max="10" placeholder="Nr">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="referrer">How did you hear about us?
+                    <select name="referrer" id="referrer">
+                        <option value="">(Choose an option)</option>
+                        <option value="1">Internet</option>
+                        <option value="2">Reklampelare</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="visits">Will you visit us again?
+                    <label for="yes">Yes <input type="radio" name="visitvalue" value="Yes" class="inline"></label>
+                    <label for="maybe">Maybe <input type="radio" name="visitvalue" value="Maybe" class="inline"></label>
+                    <label for="no">No <input type="radio" name="visitvalue" value="No" class="inline"></label>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="recomendation">
+                    Would you recommend me?
+                    <label for="recomendation">Yes
+                        <input id="recomendation" type="checkbox" value="yes" class="inline" >
+                    </label>
+                    <label for="recomendation">No
+                        <input id="recomendation" type="checkbox" value="no" class="inline">
+                    </label>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="message">Add a message for me
+                    <textarea name="message" id="message" rows="10" cols="30" placeholder="Write message here..."></textarea>
+                </label>
+            </fieldset>
+            
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
