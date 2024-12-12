@@ -3,10 +3,13 @@
 }
 header{
     background-color: black;
+    display: flex;
+    justify-content: right;
 }
 main{
     background-color: orange;
-
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 
 footer{
