@@ -2,14 +2,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #c9d2fc;
+    background-color: #fcf6c9;
 }
 .cat-head{
     width: 205px;
     height: 180px;
-    border: 1px solid #000;
+    border: 1px solid #bd7210;
     border-radius: 46%;
-    background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+    background: linear-gradient(#ffa500 85%, #e59400 100%);
     position: absolute;
     top: 0px;
     right: 0px;
@@ -23,7 +23,7 @@ top: -26px;
 left: -31px;
 border-left: 35px solid transparent;
 border-right: 35px solid transparent;
-border-bottom: 70px solid #5e5e5e;
+border-bottom: 70px solid #ffa500;
 border-top-left-radius: 90px;
 border-top-right-radius: 10px;
 transform: rotate(-45deg);
@@ -35,7 +35,7 @@ top: -26px;
 left: 163px;
 border-left: 35px solid transparent;
 border-right: 35px solid transparent;
-border-bottom: 70px solid #5e5e5e;
+border-bottom: 70px solid #ffa500;
 border-top-left-radius: 90px;
 border-top-right-radius: 10px;
 transform: rotate(45deg);
@@ -47,7 +47,7 @@ top: 22px;
 left: -20px;
 border-right:20px solid transparent;
 border-left:20px solid transparent;
-border-bottom: 40px solid #3b3b4f;
+border-bottom: 40px solid #e59400;
 border-bottom-right-radius: 40%;
 border-bottom-left-radius: 40%;
 border-top-left-radius: 90px;
@@ -59,7 +59,7 @@ top: 22px;
 left: -20px;
 border-right:20px solid transparent;
 border-left:20px solid transparent;
-border-bottom: 40px solid #3b3b4f;
+border-bottom: 40px solid #e59400;
 border-bottom-right-radius: 40%;
 border-bottom-left-radius: 40%;
 border-top-left-radius: 90px;
