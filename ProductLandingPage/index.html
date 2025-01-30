@@ -3,29 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/ProductLandingPage/styles.css">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header id="header">
-        <img id="header-img" src="/IMG_20240316_120323_395.jpg" width="70" alt="Helloteamimage">
+        <img src="/IMG_20240316_120323_395.jpg" alt="Company Logo" id="header-img">
         <nav id="nav-bar">
-                <a class="nav-link" href="#video">video</a>
-                <a class="nav-link" href="#form">form</a>
-                <a class="nav-link" href="#footer">footer</a>
+            <ul>
+                <li><a href="#section1" class="nav-link">Features</a></li>
+                <li><a href="#section2" class="nav-link">Pricing</a></li>
+                <li><a href="#section3" class="nav-link">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <iframe id="video" width="420" height="315"
-            src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
-            <form id="form" method="post" action='https://www.freecodecamp.com/email-submit'>
-                <input id="email" name="email" type="email" placeholder="Enter your email address">
-                <input id="submit" type="submit">
-            </form>
-        </section>
-    </main>
-    <footer id="footer"></footer>
+
+    <section id="section1">
+        <h2>Features</h2>
+        <p>Describe your product’s features here.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Pricing</h2>
+        <p>Showcase your pricing plans here.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Contact</h2>
+        <p>Contact us for more information.</p>
+    </section>
+
+    <section>
+        <h2>Product Demo</h2>
+        <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+    </section>
+
+    <section>
+        <h2>Subscribe</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Subscribe">
+        </form>
+    </section>
 </body>
 </html>
