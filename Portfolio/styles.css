@@ -53,12 +53,18 @@ body {
 }
 #projects .project-tile .selfmade-projects{
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 #projects .project-tile .selfmade-projects a{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 20px;
-    background-color: orange;
     padding: 20px;
+    background-color: orange;
+    width: 450px;
 }
 #projects .project-tile .selfmade-projects a p{
     background-color: gray;
