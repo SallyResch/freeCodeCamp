@@ -26,7 +26,7 @@ body {
     flex-direction: row;
     background: radial-gradient(ellipse at bottom, #090909, #111) ;
     color: rgb(255, 237, 222);
-    overflow: hidden;
+    margin: 0;
 }
 .night{
     position: absolute;
@@ -212,4 +212,53 @@ footer{
     color: rgb(255, 237, 222);
     text-align: center;
     padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    #navbar {
+        height: 55px;
+        justify-content: center; /* Center navbar items */
+    }
+    #navbar a {
+        margin-right: 10px; /* Reduce margin for links */
+        font-size: 14px;
+    }
+
+    #welcome-section {
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center;
+        padding: 20px;
+    }
+
+    #projects .project-tile .work-projects {
+        flex-direction: column; /* Stack project items */
+        align-items: center;
+    }
+
+    #projects .project-tile .work-projects a,
+    #projects .project-tile .selfmade-projects a {
+        width: 90%; /* Make projects full width */
+        margin: 10px 0;
+    }
+
+    #projects .project-tile .selfmade-projects {
+        grid-template-columns: repeat(1, 1fr); /* Single column */
+    }
+
+    #contact #contact-links {
+        flex-direction: column; /* Stack contact links */
+        align-items: center;
+    }
+
+    #contact a {
+        margin: 10px 0;
+    }
+
+    .link-image {
+        width: 40px; /* Adjust icon size */
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
