@@ -179,6 +179,9 @@ body {
 a{
     border-radius: 5%;
 }
+h3{
+    text-align: center;
+}
 #contact{
     background-color: #b14c0d;
     display: flex;
