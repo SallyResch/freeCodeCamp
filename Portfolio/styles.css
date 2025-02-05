@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -30,12 +30,39 @@ body{
 #projects {
     height: 100%;
     background-color: #ab846d;
-    margin: 0;
-    padding: 0;
 }
-#projects .project-tile{
+#projects h1 {
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    text-align: center;
+}
+#projects .project-tile .work-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+#projects .project-tile .work-projects a{
+    margin: 20px;
+    background-color: orange;
+    padding: 20px;
+}
+#projects .project-tile .work-projects a p{
+    background-color: gray;
+    padding: 20px;
+}
+#projects .project-tile .selfmade-projects{
+    padding: 20px;
+}
+#projects .project-tile .selfmade-projects a{
+    display: grid;
+    margin: 20px;
+    background-color: orange;
+    padding: 20px;
+}
+#projects .project-tile .selfmade-projects a p{
+    background-color: gray;
+    padding: 20px;
 }
 #contact{
     background-color: #b14c0d;
