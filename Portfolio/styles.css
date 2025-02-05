@@ -28,7 +28,7 @@ body{
     color: rgb(255, 237, 222);
 }
 #projects {
-    height: 100vh;
+    height: 100%;
     background-color: #ab846d;
     margin: 0;
     padding: 0;
