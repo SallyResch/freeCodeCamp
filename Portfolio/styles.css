@@ -68,7 +68,7 @@ body {
 .star::before, .star::after{
     content: '';
     position: absolute;
-    top: calc(50% - 2px);
+    top: calc(10% - 2px);
     right: 0;
     height: 4px;
     background: linear-gradient(-45deg, rgba(0,0,255,0), #5f91ff, rgba(0,0,255,0));
