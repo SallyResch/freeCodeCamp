@@ -229,14 +229,18 @@ footer{
         padding: 20px;
     }
 
-    #projects .project-tile .work-projects {
+    #projects .project-tile .work-projects, #projects .project-tile .selfmade-projects {
+        display: flex;
         flex-direction: column; /* Stack project items */
         align-items: center;
     }
 
-    #projects .project-tile .work-projects a,
+    #projects .project-tile .work-projects a{
+        width: 400px; 
+        margin: 10px 0;
+    }
     #projects .project-tile .selfmade-projects a {
-        width: 90%; /* Make projects full width */
+        width: 400px;
         margin: 10px 0;
     }
 
